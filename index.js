@@ -63,7 +63,7 @@ var firstSeatLabel = 1;
         $('#layoutContainer').css('min-width', (layout[0].length * 50) + 'px');
 
         //let's pretend some seats have already been booked
-        //sc.get(['1_2', '4_1', '7_1', '7_2']).status('unavailable');
+        sc.get(['spot_2', 'spot_6', 'spot_7', 'spot_11', 'spot_17', 'spot_21', 'spot_26']).status('unavailable');
 
 });
 

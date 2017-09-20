@@ -51,7 +51,8 @@ div.seatCharts-seat {
 	cursor: pointer;	
 }
 div.seatCharts-row {
-	height: 35px;
+    height: 35px;
+    clear: both;
 }
 div.seatCharts-seat.available {
 	background-color: #B9DEA0;
